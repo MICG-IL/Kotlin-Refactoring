@@ -1,3 +1,9 @@
+# Intellij
+.idea/
+
+# Build files
+build/
+
 # Compiled class file
 *.class
 
