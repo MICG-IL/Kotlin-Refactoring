@@ -1,0 +1,21 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.20'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation("com.approvaltests:approvaltests:15.1.2")
+    testImplementation("com.google.code.gson:gson:2.9.0")
+}
+
+test{
+    useJUnitPlatform()
+}
