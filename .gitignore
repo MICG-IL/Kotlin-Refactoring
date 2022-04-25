@@ -1,6 +1,9 @@
 # Intellij
 .idea/
 
+#gradle
+.gradle
+
 # Build files
 build/
 out/
